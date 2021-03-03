@@ -5,13 +5,15 @@ import Button from '../../UI/Button/Button'
     
     class OrderSummary extends Component {
 
+        // could be a functional component
+
         render() {
 
             /* 
     componentDidUpdate() {
         console.log('[Order] DidUpdate')
     } */
-    // checking if the update works and renders right to improve performance, swithced from const to class component in ordersummary
+    // checking if the update works and renders right to improve performance, swithced from functionanal component to class component in ordersummary
 
             const ingredientSummary = Object.keys(this.props.ingredients)
         .map(igKey => {
