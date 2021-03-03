@@ -7,6 +7,12 @@ import Button from '../../UI/Button/Button'
 
         render() {
 
+            /* 
+    componentDidUpdate() {
+        console.log('[Order] DidUpdate')
+    } */
+    // checking if the update works and renders right to improve performance, swithced from const to class component in ordersummary
+
             const ingredientSummary = Object.keys(this.props.ingredients)
         .map(igKey => {
             return (
