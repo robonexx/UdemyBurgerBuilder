@@ -5,10 +5,6 @@ import Button from '../../UI/Button/Button'
     
     class OrderSummary extends Component {
 
-        componentDidUpdate(){
-            console.log('[OrderSummary] WillUpdate');
-        }
-
         render() {
 
             const ingredientSummary = Object.keys(this.props.ingredients)
@@ -33,9 +29,6 @@ import Button from '../../UI/Button/Button'
     </Auxiliary>
             )
         }
-        
-        
-   
 }
 
 export default OrderSummary;
