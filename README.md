@@ -1,3 +1,11 @@
+# So right now Im learning react 
+# Learning from different tutorials and Udemy courses
+
+We are currently working on react and how to use react with firebase
+Doing differnt projects while learning react
+And I desided to upload my learning on this udemy course by Maximilian Schwarzmuller
+This one is the "Basic" BurgerBuilder project part (117-158) 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
